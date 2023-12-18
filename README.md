@@ -19,17 +19,3 @@ After that browse to your MeshCentral server IP or domain.
 The meshcentral-web folder, along with its custom files, must be placed in the root folder of your MeshCentral instance (where meshcentral-data and meshcentral-files).
 
 # End of Official repository Readme.
-
-Notes (unclear instruction from main branch, will be looked into)
-
-Requires MeshCentral to be configured with the following options: (maybe not nightMode, but it was designed with that configured)
-
-```
-"domains": {
-  "": {
-    "hide": 5,
-    "nightMode": 1,
-    "minify": false
-  }
-},
-```
