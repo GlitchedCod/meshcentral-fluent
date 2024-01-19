@@ -1,7 +1,7 @@
 # MeshCentral Material UI:
 Custom UI for MeshCentral based on Material UI
 
-![image](https://github.com/DaanSelen/meshcentral-material/assets/80752476/ca53d034-fd28-4d69-ba75-e68692112632)
+![image](https://github.com/DaanSelen/meshcentral-material/assets/80752476/37a440aa-aecc-4279-bf0f-1c4da2355e5e)
 
 # Installation guide (of this version):
 
