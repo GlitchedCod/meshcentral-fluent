@@ -10,6 +10,9 @@ Clone this repository (if you have git installed, if not: download it here: [Git
 ```git clone https://github.com/DaanSelen/meshcentral-material```<br>
 
 after that move or copy the folder src/meshcentral-web (or parts of it IF YOU KNOW WHAT YOU ARE DOING) into your installed MeshCentral root folder, where meshcentral-files and meshcentral-data is located.
+
+```(sudo) mv ./meshcentral-material/src/meshcentral-web /opt/meshcentral/```
+
 Once that's done, restart the MeshCentral server using the guide instructed service file. Using Systemd this is done like this:<br>
 
 ```sudo systemctl restart meshcentral.service```<br>
