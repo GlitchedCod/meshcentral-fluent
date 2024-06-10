@@ -21,4 +21,9 @@ After that browse to your MeshCentral server IP or domain.
 
 The meshcentral-web folder, along with its custom files, must be placed in the root folder of your MeshCentral instance (where meshcentral-data and meshcentral-files).
 
+# Known issues:
+
+Careful with language settings, the Web-UI can possible *not* be applied when not having English selected.
+When English is selected under the localisation settings, then it works again.
+
 # End of Official repository Readme.
