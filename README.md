@@ -1,31 +1,38 @@
 # MeshCentral Material UI:
-Custom UI for MeshCentral based on Material UI
+his repository contains a custom UI for MeshCentral based on Material UI, originally created by [ijustw0rkhere](https://github.com/ijustw0rkhere).
 
-![image](https://github.com/DaanSelen/meshcentral-material/assets/80752476/37a440aa-aecc-4279-bf0f-1c4da2355e5e)
+If you encounter issues or unsual choice, please feel free to submit an issue, I will look at it as soon as possible!
 
 # Installation guide (of this version):
 
 Clone this repository (if you have git installed, if not: download it here: [Git Download](https://git-scm.com/downloads))<br>
 
-```git clone https://github.com/DaanSelen/meshcentral-material```<br>
+```shell
+git clone https://github.com/DaanSelen/meshcentral-material
+```
+<br>
 
-after that move or copy the folder src/meshcentral-web (or parts of it IF YOU KNOW WHAT YOU ARE DOING) into your installed MeshCentral root folder, where meshcentral-files and meshcentral-data is located.
+after that move or copy the folder src/meshcentral-web (or parts of it IF YOU KNOW WHAT YOU ARE DOING) into your installed MeshCentral root folder, where `meshcentral-files` and `meshcentral-data` is located.
 
-```(sudo) mv ./meshcentral-material/src/meshcentral-web /opt/meshcentral```
+```shell
+(sudo) mv ./meshcentral-material/src/meshcentral-web /opt/meshcentral
+```
 
 Once that's done, restart the MeshCentral server using the guide instructed service file. Using Systemd this is done like this:<br>
 
-```sudo systemctl restart meshcentral.service```<br>
+```shell
+sudo systemctl restart meshcentral.service
+```
+<br>
 
-After that browse to your MeshCentral server IP or domain.
+After that browse to your MeshCentral server IP or domain.<br>
 
-The meshcentral-web folder, along with its custom files, must be placed in the root folder of your MeshCentral instance (where meshcentral-data and meshcentral-files).
+# Image showcase:
+
+![image](https://github.com/DaanSelen/meshcentral-material/assets/80752476/37a440aa-aecc-4279-bf0f-1c4da2355e5e)
 
 # Known issues:
 
-Careful with language settings, the Web-UI can possible *not* be applied when not having English selected.
-When English is selected under the localisation settings, then it works again.
+None right now.
 
-Reffering Issue: https://github.com/Ylianst/MeshCentral/issues/6022
-
-# End of Official repository Readme.
+# Thank you for using!
